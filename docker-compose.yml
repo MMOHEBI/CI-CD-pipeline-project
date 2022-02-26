@@ -10,4 +10,3 @@ services:
     volumes: 
       - /var/tmp/jenkins/:/var/jenkins_home
   
-#http://localhost:8099/
