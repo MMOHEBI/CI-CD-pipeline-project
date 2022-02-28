@@ -1,6 +1,5 @@
 pipeline{
-    agent{ // where to execute
-        label "node"
+    agent{ 
     }
     stages{ // where the "work" happens
         stage("build"){
