@@ -1,6 +1,5 @@
 pipeline{
-    agent{ 
-    }
+    agent any
     stages{ // where the "work" happens
         stage("build"){
             steps{
