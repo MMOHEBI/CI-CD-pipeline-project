@@ -37,24 +37,5 @@ pipeline{
     
         }
     }
-    }
-
-    stage("deploy"){
-        steps{
-            echo "deployig the application..."
-        }
-        post{
-            always{
-                echo "====++++always++++===="
-            }
-            success{
-                echo "====++++deploy executed successfully++++===="
-            }
-            failure{
-                echo "====++++deploy execution failed++++===="
-            }
-    
-        }
-    }
-    
+}
 }
